@@ -1,0 +1,57 @@
+img{
+    max-width: 100%;
+}
+
+.color-text{
+    color: #76c27e;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    color: #252e35;
+    font-size: 1rem;
+}
+
+header{
+    background-color: #fffff4;
+}
+
+header ul li{
+    margin-left: 2rem;
+}
+
+header ul li a{
+    font-size: 1rem;
+}
+
+.banner img{
+    width: 80%;
+    padding: 40px;
+}
+
+.backpack-text{
+   padding: 40px;
+}
+
+.services .img{
+    width: 70%;
+    padding: 20px;
+}
+
+.animation{
+    transform: scale(1);
+}
+   
+.animation:hover{
+    transform: scale(1.04);
+}
+
+@media (max-width:767px){
+    .services .img{
+       margin: auto;
+       display: block;
+    }
+}
